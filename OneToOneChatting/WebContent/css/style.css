@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+#main_chat
+{max-width:1010px;
+    background-color:mediumaquamarine;
+    margin:5px auto;
+   padding:10px 20px; 
+}
+
+#name_tabs{
+    border: 1px solid black;
+    width: 20%;
+    margin:15px 0;
+    height:450px;
+    background-color:white;
+    overflow:auto;
+    float: left;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#screen
+{
+float: right;
+width: 75%;
+margin:15px 0;
+height:450px;
+background-color:white;
+overflow:auto;
+}
+#output p
+{
+    padding:5px 20px; 
+    margin:5px;
+}
+#feedback p
+{color: #aaa;
+    padding:5px 20px; 
+    margin:5px;
+    
+}
+input{
+    padding:5px;
+display:block;
+width:100%;
+
+}
+button
+{
+    padding:5px 9px;
+    display:block;
+    width:100%;
+    background-color:mediumaquamarine;
+}
+#hello
+{
+    display:inline;
+}
+#handler
+{
+    
+    display:inline;
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: white; /* Green */
+}
